@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Shop Landing Page</title>
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <style>
+    #occasions {
+  padding-bottom: 0;
+}
+
+.wrapper {
+  margin-top: 55px;
+  padding: 0px;
+}
+
+div.occasion-list {
+  float: left;
+  width: 30%;
+  margin: 0 20px;
+  padding: 20px 15px;
+}
+
+.occasion-list li {
+  margin-bottom: 30px;
+}
+
+.bx  {
+  color: #FDA83E;
+  margin-right: 3px;
+}
+div.occasion-list {
+  font-family: "poppins", sans-serif;
+  float: left;
+  width: 20%;
+  margin: 0 100px;
+  padding: 40px 15px ;
+  text-align: center;
+  background-color: #e84393;
+}
+
+.occasion-list li {
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+.occasion-list a{
+  color: #777;
+ text-decoration: none;
+}
+.occasion-list a i {
+  color: #FDA83E;
+  margin-right: 3px;
+}
+  </style>
+</head>
+<body>
+<section id="occasions">
+    <h2 class="section-title">Occasions</h2>
+    <div class="wrapper">
+     <div class="occasion-list">
+       <ul>
+         <li><a href="#"><i class='bx bxs-heart'></i> Anniversary</a></li>
+         <div class="occasion-list">
+         <li><a href="#"><i class='bx bxs-cake' ></i>Birthday</a></li>
+         <li><a href="#"><i class='bx bxs-graduation'></i> Graduation</a></li>
+       </ul>
+     </div>
+   
+     <div class="occasion-list">
+       <ul>
+         <li><a href="#"><i class='bx bxs-plane-alt'></i> Bon voyage</a></li>
+         <li><a href="#"><i class='bx bx-female'></i> New Baby</a></li>
+         <li><a href="#"><i class='bx bxs-gift'></i> Just Because</a></li>
+       </ul>
+     </div>
+   
+     <div class="occasion-list">
+       <ul>
+         <li><a href="#"><i class='bx bxs-tree'></i>Holidays</a></li>
+         <li><a href="#"><i class='bx bxs-star'></i> Congrats</a></li>
+         <li><a href="#"><i class='bx bx-happy-alt'></i>Get Well</a></li>
+       </ul>
+     </div>
+   </div>
+ </section>
+ <form action="/action_page.php">
+  <p>Please select your favorite Web language:</p>
+<input type="radio" id="html" name="fav_language" value="HTML"/>rose<br /><br />
+
+<input type="radio" id="css" name="fav_language" value="CSS"/>rose<br /><br />
+
+<input type="radio" id="javascript" name="fav_language" value="JavaScript"/>rose<br /><br />
+ </body>
+ </html>
+ <h4 class="about">Contact</h4>
+      <div class="contact-form">
+        <form method="POST">
+          <label>Name:</label>
+          <input type="text" id="name" name="firstname" /><br /><br />
+          <label>Email:</label>
+          <input type="email" id="email" name="email" /><br /><br />
+          <label>Message:</label>
+          <textarea rows="5" cols="50"></textarea>
+          <button type="button" name="submit">Submit</button>
+        </form>
+      </div>
+      </
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Shop Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <style>
+    .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14%;
+  transition: all .50s ease;
+  z-index: 999;
+  font-family: "poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 999;
+}
+
+.logo {
+  font-size: 31px;
+  background-image: url(pictures/2422225-bigthumbnail.jpg);
+  text-decoration: none;
+  font-weight: 700;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  width: 100px;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 20px;
+  color: rgb(47, 44, 44);
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 40px;
+  background-color: transparent;
+}
+
+.navbar a::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #e84393;
+  transition-duration: 1s;
+}
+
+.navbar a:hover::before {
+  width: 100%;
+  
+
+}
+
+.navbar a:hover {
+  color: #e84393;
+}
+
+.h-icons {
+  display: flex;
+  align-items: center;
+}
+
+.h-icons i {
+  font-size: 25px;
+  color: black;
+  margin-left: 5px;
+  margin-right: 20px;
+  transition: all .50s ease;
+}
+
+.h-icons i:hover {
+  transform: translate(-4px);
+  color: rgb(185, 72, 148);
+}
+
+#menu-icon {
+  height: 30px;
+  width: 30px;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 10001;
+  cursor: pointer;
+  display: none;
+}
+
+  </style>
+</head>
+
+<body>
+  <!-- headersection -->
+  <header class="header">
+    <a href="#" class="logo">florist</a>
+    <ul class="navbar">
+      <li> <a href="#intro-a">Home</a></li>
+      <li> <a href="#newflowers">Today's flowers</a></li>
+      <li> <a href="#occasions">Occasions</a></li>
+      <li> <a href="#about">About</a></li>
+      <li> <a href="#FlowerOrder">Contact us</a></li>
+    </ul>
+    <div class="h-icons">
+      <a href=""><i class='bx bx-shopping-bag'></i></a>
+      <a href=""><i class='bx bx-phone'></i></a>
+      <a href=""><i class='bx bx-heart'></i></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+  </header>
+  </body>
+  </html>
